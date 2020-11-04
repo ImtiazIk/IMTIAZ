@@ -42,7 +42,7 @@ def cetak(b):
 def jalan(z):
 	for e in z + '\n':
 		sys.stdout.write(e)
-		sys.stdout.flush()
+		sys.stdout.flush(
 		time.sleep(00000.1)
 
 
@@ -183,7 +183,7 @@ def menu():
 		print"\033[1;91mYour Account is on Checkpoint"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
-		login()
+		login(
 	except requests.exceptions.ConnectionError:
 		print"\x1b[1;92mThere is no internet connection"
 		keluar()
