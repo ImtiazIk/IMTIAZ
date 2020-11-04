@@ -488,4 +488,3 @@ def brute():
 
 if __name__ == '__main__':
 	login()
-\033[0;39m YT  IKB KING
